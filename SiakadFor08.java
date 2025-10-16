@@ -17,7 +17,6 @@ public class SiakadFor08 {
                 terendah = nilai;
             }
 
-            // Tambahan: hitung lulus & tidak lulus
             if (nilai >= 60) {
                 jumlahLulus++;
             } else {
