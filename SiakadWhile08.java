@@ -12,13 +12,13 @@ public class SiakadWhile08 {
             System.out.print("Masukkan nilai mahasiswa ke-" + (i + 1) + ": ");
             nilai = sc.nextInt();
 
-            // Cek validitas nilai
+            // Mengecek validitas nilai
             if (nilai < 0 || nilai > 100) {
-                System.out.println("Nilai tidak valid, ulangi input!\n");
+                System.out.println("Nilai tidak valid. Masukkan lagi nilai yang valid!\n");
                 continue;
             }
 
-            // Kategori nilai huruf
+            // Menentukan nilai huruf
             if (nilai > 80) {
                 System.out.println("Nilai huruf: A");
                 System.out.println("Bagus, pertahankan nilainya!");
@@ -36,7 +36,7 @@ public class SiakadWhile08 {
                 System.out.println("Nilai huruf: E");
             }
 
-            i++; // update perulangan
+            i++; // update di akhir perulangan
         }
 
         sc.close();
